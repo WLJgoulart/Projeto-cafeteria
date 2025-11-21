@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cafeteria Portifólio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="caixa-video">
+        <video src="./videos/CAFE-VIDEO.mp4" loop muted autoplay></video>
+        <div class="mascara"></div>
+    </div>
+
+    <header class="header">
+        <section>
+            <a href="#">
+                <img src="./img/logo.png" alt="logo Cafeteria">
+            </a>
+
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Sobre</a>
+                <a href="#" onclick="mostrarModal ()">Endereço</a>
+            </nav>
+
+        </section>
+
+    </header>
+
+
+    <section class="Caixa-principal">
+        <div>
+            <h3> Café é Arte. Experiência é Essência.</h3>
+            <p> "A Cafeteria Aroma & Grão nasce do desejo de transformar simples momentos em experiências que aquecem a
+                alma. Cada xícara carrega histórias, inspira conversas e desperta sensações que só o café é capaz de
+                traduzir. Aqui, o aroma envolve, o sabor acalma e o ambiente convida a desacelerar. Criamos um espaço
+                onde o tempo parece andar mais devagar, permitindo que cada pessoa encontre, no calor do café, um
+                instante de paz, aconchego e inspiração." </p>
+            <a class="botao-link"> Pegue o seu agora</a>
+        </div>
+    </section>
+
+    <section class="Caixa-sobre">
+        <h2 class="titulo"><span>Sobre</span>Nós</h2>
+        <div class="sobre-container">
+            <div class="sobre-imagem">
+                <img src="./img/about-img.jpg" alt="">
+            </div>
+            <div class="sobre-texto">
+                <h3>O que faz nosso café especial</h3>
+                <p>Na Cafeteria Aroma & Grão, acreditamos que o café é muito mais do que uma bebida — é um ritual capaz
+                    de conectar pessoas, despertar memórias e transformar rotinas em momentos especiais. Nascemos da
+                    paixão por sabores autênticos, pela arte de preparar um bom café e pelo desejo de criar um ambiente
+                    onde cada detalhe importa.</p>
+                <p>Trabalhamos com grãos selecionados, atmosfera acolhedora e um atendimento que valoriza a essência
+                    humana. Aqui, cada xícara é pensada para transmitir conforto, intensidade e inspiração. Seja para
+                    começar o dia, encontrar amigos ou simplesmente fazer uma pausa, queremos que cada visita seja uma
+                    experiência única, capaz de aquecer a alma e trazer um pouco mais de calma ao cotidiano.</p>
+                <p>Aroma & Grão: onde o café encontra histórias, e onde você sempre é bem-vindo.</p>
+                <a class="botao-link">Saiba mais</a>
+            </div>
+
+
+        </div>
+
+
+    </section>
+    <div class="modal">
+        <h3 class="titulo"><span>Nosso</span>Endereço</h3>
+
+        <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13816.986056620155!2d-51.24055504665006!3d-30.02978484889185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9519790e4d043eab%3A0x769a0820bae18fd4!2sCentro%20Hist%C3%B3rico%2C%20Porto%20Alegre%20-%20RS!5e0!3m2!1spt-BR!2sbr!4v1763734025549!5m2!1spt-BR!2sbr"
+    width="600"
+    height="450"
+    style="border:0;"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"
+    frameborder="0">
+</iframe>
+
+    </div>
+
+    <div class="mascara-modal" onclick="esconderModal()"></div>
+
+    <script src="./scripts.js"></script>
+</body>
+
+</html>
